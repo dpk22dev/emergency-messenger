@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, TryprojecttwoActivity!</string>
+    <string name="app_name">Emergency Location service</string>
+    
+    <string name="welcome">Welcome</string>
+    
+    <string name="edit_numbers">Edit Numbers</string>
+    <string name="string_emergency">Emergency</string>
+    <string name="edit_template">Edit Template</string>
+    <string name="default_numbers">Default Numbers</string>
+
+	<string name="no_notes">No Notes Yet</string>
+    <string name="menu_insert">Add Note</string>
+    <string name="menu_delete">Delete Note</string>
+    <string name="title">Title</string>
+    <string name="body">Body</string>
+    <string name="confirm">Confirm</string>
+    <string name="edit_note">Edit Note</string>
+    <string name="string_back">Press to go back</string>
+    
+    <string name="string_select">Select from spinner</string>
+    
+    <string-array name="choices">
+        <item>Police</item>
+        <item>FireBrigade</item>
+        <item>Ambulance</item>
+    </string-array>
+    
+    <string name="countries_button_text">OK</string>
+     <string name="select_location">Select Location</string>
+     
+</resources>

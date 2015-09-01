@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/welcome"
+    />
+    
+<Button android:id="@+id/editNumbers" 
+	  android:text="@string/edit_numbers"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />
+		
+<Button android:id="@+id/emergency" 
+	  android:text="@string/string_emergency"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />
+		
+<Button android:id="@+id/editTemplate" 
+	  android:text="@string/edit_template"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />
+		
+<Button android:id="@+id/defaultNumbers" 
+	  android:text="@string/default_numbers"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />
+
+    
+</LinearLayout>

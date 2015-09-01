@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1">
+    
+<CheckBox android:id="@+id/check1"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Police" />
+    
+<CheckBox android:id="@+id/check2"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+ android:text="Fire Brigade" />
+ 
+ <CheckBox android:id="@+id/check3"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+ android:text="Ambulance" />
+    
+<RelativeLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+<Button
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/check3"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10dip"
+        android:text="Send" />
+        
+<Button
+		android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/send"
+        android:layout_alignTop="@id/send"
+        android:text="Go Back" />
+        
+<Button
+		android:id="@+id/choose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/back"
+        android:layout_alignTop="@id/back"
+        android:text="Choose from Contacts" />
+        
+
+    
+</RelativeLayout>
+
+</LinearLayout>
