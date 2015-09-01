@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Select from spinner"/>
+        
+    <Spinner 
+        android:id="@+id/spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/string_select"
+    />
+        
+    <EditText
+        android:id="@+id/entry"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinner"/>
+        
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/entry"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10dip"
+        android:text="Go Back" />
+        
+    <Button android:text="Add Number"
+    android:id="@+id/addnumber" 
+    android:layout_height="wrap_content" 
+    android:layout_width="wrap_content" 
+    android:layout_below="@+id/entry" 
+    android:layout_toLeftOf="@+id/back">
+    </Button>
+    
+    <ListView android:id="@+id/android:list"
+    	android:layout_below="@+id/addnumber"
+          android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"/>
+        	
+  	<TextView android:id="@+id/android:empty"
+  		android:layout_below="@+id/addnumber"
+          android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="@string/no_notes"/>
+        	
+          
+</RelativeLayout>

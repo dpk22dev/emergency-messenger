@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<com.google.android.maps.MapView
+	    android:id="@+id/mapview"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:enabled="true"
+	    android:clickable="true"
+	    android:apiKey="05iOFwqF22oiUf3tMRxkzqZYafU1Mo4lHcHiYJw"
+	/>
+	<LinearLayout android:id="@+id/zoom" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_alignParentBottom="true" 
+        android:layout_centerHorizontal="true" 
+        />
+	<Button android:layout_width="wrap_content" 
+	android:text="Cancel" 
+	android:id="@+id/mapcancel" 
+	android:layout_height="wrap_content" 
+	android:layout_alignParentTop="true" 
+	android:layout_alignParentRight="true">
+	</Button>
+	
+	<Button android:layout_width="wrap_content" 
+	android:text="Use Location" 
+	android:id="@+id/location" 
+	android:layout_height="wrap_content" 
+	android:layout_alignParentTop="true" 
+	android:layout_toLeftOf="@+id/mapcancel">
+	</Button> 
+	
+</RelativeLayout>
